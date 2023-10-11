@@ -24,8 +24,8 @@ public class ConnectDB {
 
 	 
 
-	         connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/lulu",
-	            "root", "Rakshi@296");
+	         connection = DriverManager.getConnection("datapath",
+	            "root", "");
 		}
 		catch(Exception E) {
 
